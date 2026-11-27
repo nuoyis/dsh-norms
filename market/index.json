@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "title": {
+    "en": "nuoyis plugins",
+    "zh": "nuoyis 插件"
+  },
+  "description": {
+    "en": "DeepSeek Harness plugins by nuoyis/dsh-norms.",
+    "zh": "nuoyis/dsh-norms 的 DeepSeek Harness 插件。"
+  },
+  "metadata": {
+    "categories": {},
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-norms",
+      "title": {
+        "en": "Workspace norms",
+        "zh": "工作区规范化"
+      },
+      "description": {
+        "en": "Reads the workspace AGENTS.md first, lands emphasized rules into it, keeps a root document per session, and audits public Python before registering its API and parameters back into AGENTS.md.",
+        "zh": "优先读取工作区 AGENTS.md，把用户强调的总规则落盘，为每次会话维护根文档，并在登记公共 Python 之前审计公共性、把 API 与参数写回 AGENTS.md。"
+      },
+      "icon": "../icon.svg",
+      "author": "nuoyis/dsh-norms",
+      "homepage": "https://github.com/nuoyis/dsh-norms#readme",
+      "repository": {
+        "url": "https://github.com/nuoyis/dsh-norms"
+      },
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "agents-md",
+        "norms",
+        "python"
+      ],
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "agents-md",
+          "norms",
+          "python"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795786533,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/nuoyis/dsh-norms",
+            "commit": "dd75788c4ead988d0384c109990210536561b0cb"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}
