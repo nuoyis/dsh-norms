@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Workspace norms",
+    "description": "Reads the workspace AGENTS.md first, lands emphasized rules into it, keeps a root document per session, and audits public Python before registering its API and parameters back into AGENTS.md. By nuoyis/dsh-norms.",
+    "detail": "docs/DETAIL.md"
+  }
+}

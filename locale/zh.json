@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "工作区规范化",
+    "description": "优先读取工作区 AGENTS.md，把用户强调的总规则落盘，为每次会话维护根文档，并在登记公共 Python 之前审计公共性、把 API 与参数写回 AGENTS.md。作者：nuoyis/dsh-norms。",
+    "detail": "docs/DETAIL.md"
+  }
+}

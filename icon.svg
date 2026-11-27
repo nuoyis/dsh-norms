@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Workspace norms">
+  <!-- 作者：nuoyis/dsh-norms -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f3a5f"/>
+      <stop offset="1" stop-color="#0f1c2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="url(#bg)"/>
+  <rect x="4.75" y="4.75" width="118.5" height="118.5" rx="25.25" fill="none" stroke="#2c4a6e" stroke-width="1.5"/>
+  <path d="M38 32h44a8 8 0 0 1 8 8v48a8 8 0 0 1-8 8H38a8 8 0 0 1-8-8V40a8 8 0 0 1 8-8z" fill="#f8fafc" opacity="0.96"/>
+  <rect x="44" y="44" width="34" height="5" rx="2.5" fill="#94a3b8"/>
+  <rect x="44" y="56" width="28" height="5" rx="2.5" fill="#cbd5e1"/>
+  <rect x="44" y="68" width="32" height="5" rx="2.5" fill="#cbd5e1"/>
+  <rect x="44" y="80" width="20" height="5" rx="2.5" fill="#e2e8f0"/>
+  <circle cx="92" cy="88" r="17" fill="url(#accent)"/>
+  <path d="M84 88.5l5.2 5.2L100 83" fill="none" stroke="#0b1220" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

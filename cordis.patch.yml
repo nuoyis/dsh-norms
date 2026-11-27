@@ -1,0 +1,19 @@
+- insert:
+    - id: norms
+      name: 'dsh-norms'
+      inject:
+        - tools
+      config:
+        enabled: true
+        ruleDirs:
+          - python-public
+        publicDir: python-public
+        mcpDir: python-public/mcp
+        sessionRootDir: 会话归档
+        threshold: 85
+        maxExtraChars: 4000
+        maxRuleChars: 500
+        logKeep: 20
+        injectPrompt: true
+        tool: true
+        command: true

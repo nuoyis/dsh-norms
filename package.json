@@ -1,0 +1,47 @@
+{
+  "name": "dsh-norms",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Workspace norms for DeepSeek Harness: AGENTS.md-first rule chain, emphasized-rule landing, session root docs, and public Python audits written back to AGENTS.md.",
+  "author": "nuoyis/dsh-norms",
+  "license": "MIT",
+  "homepage": "https://github.com/nuoyis/dsh-norms#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuoyis/dsh-norms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nuoyis/dsh-norms/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agents-md",
+    "norms",
+    "python",
+    "audit"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/pyaudit.js",
+    "lib/agentsmd.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
